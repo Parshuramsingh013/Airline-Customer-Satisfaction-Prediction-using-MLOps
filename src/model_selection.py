@@ -52,7 +52,7 @@ class ModelSelection:
         try:
             logger.info(f"Loading data from")
             df = pd.read_csv(self.data_path) #100% Data
-            df_sample = df.sample(frac= 0.05, random_state=42) #5% Data
+            df_sample = df.sample(frac= 0.1, random_state=42) #10% Data
 
             X = df_sample.drop(columns='satisfaction')
             y = df_sample['satisfaction']
