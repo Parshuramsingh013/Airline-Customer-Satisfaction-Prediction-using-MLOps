@@ -10,3 +10,4 @@ torch
 matplotlib
 mlflow
 dvc
+flask
