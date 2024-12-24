@@ -93,7 +93,7 @@ pipeline {
                 script {
                     // Pushing Docker Image
                     echo 'Pushing Docker Image....'
-                    docker.withRegistry("${DOCKERHUB_REPOSITORY}", "${DOCKERHUB_CREDENTIAL_ID}"){
+                    docker.withRegistry("${DOCKERHUB_REGISTRY}", "${DOCKERHUB_CREDENTIAL_ID}"){
                         dockerImage.push('latest')
                     }
                     
