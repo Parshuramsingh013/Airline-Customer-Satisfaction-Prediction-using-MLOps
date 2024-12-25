@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MlOps-Project/mlruns/447606393565799877/77b17f04473a480b8519a3264e8f91d5/artifacts
+end_time: 1734947263281
+entry_point_name: ''
+experiment_id: '447606393565799877'
+lifecycle_stage: active
+run_id: 77b17f04473a480b8519a3264e8f91d5
+run_name: powerful-ant-724
+run_uuid: 77b17f04473a480b8519a3264e8f91d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734947211852
+status: 3
+tags: []
+user_id: Parshuram Singh

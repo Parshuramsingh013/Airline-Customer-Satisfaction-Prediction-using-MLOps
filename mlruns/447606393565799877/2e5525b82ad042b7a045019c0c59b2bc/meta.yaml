@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MlOps-Project/mlruns/447606393565799877/2e5525b82ad042b7a045019c0c59b2bc/artifacts
+end_time: 1734950552836
+entry_point_name: ''
+experiment_id: '447606393565799877'
+lifecycle_stage: active
+run_id: 2e5525b82ad042b7a045019c0c59b2bc
+run_name: orderly-bass-75
+run_uuid: 2e5525b82ad042b7a045019c0c59b2bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734950510141
+status: 3
+tags: []
+user_id: Parshuram Singh

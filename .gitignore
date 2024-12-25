@@ -9,7 +9,6 @@ __pycache__/
 
 train.csv
 test.csv
-mlruns/
 # Distribution / packaging
 .Python
 build/

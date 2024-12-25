@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MlOps-Project/mlruns/447606393565799877/5d56ccac183842088be6a4752a28543a/artifacts
+end_time: 1734949617638
+entry_point_name: ''
+experiment_id: '447606393565799877'
+lifecycle_stage: active
+run_id: 5d56ccac183842088be6a4752a28543a
+run_name: efficient-shoat-502
+run_uuid: 5d56ccac183842088be6a4752a28543a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734949569444
+status: 3
+tags: []
+user_id: Parshuram Singh
