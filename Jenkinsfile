@@ -106,7 +106,7 @@ pipeline {
                 script {
                     // AWS Deployment
                     echo 'AWS Deployment....'
-                    sh "aws ecs update-service --cluster parshurams_ecs --service parshurams_service --force-new-deployment"
+                    sh "aws ecs update-service --cluster parshurams_ecs --service parshurams_service --force-new-deployment --region us-east-1"
                     
                 }
             }
