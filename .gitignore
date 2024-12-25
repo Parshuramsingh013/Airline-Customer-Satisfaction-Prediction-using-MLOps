@@ -9,7 +9,6 @@ __pycache__/
 
 train.csv
 test.csv
-artifacts/
 mlruns/
 # Distribution / packaging
 .Python
