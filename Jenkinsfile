@@ -101,15 +101,15 @@ pipeline {
             }
         }
 
-        // stage('AWS Deployment') {
-        //     steps {
-        //         script {
-        //             // AWS Deployment
-        //             echo 'AWS Deployment....'
-        //             sh "aws ecs update-service --cluster parshuram_ecs --service parshuramy_service --force-new-deployment --region us-east-1"
+        stage('AWS Deployment') {
+            steps {
+                script {
+                    // AWS Deployment
+                    echo 'AWS Deployment....'
+                    sh "aws ecs update-service --cluster parshurams_ecs --service parshurams_service --force-new-deployment"
                     
-        //         }
-        //     }
-        // }
+                }
+            }
+        }
     }
 }
